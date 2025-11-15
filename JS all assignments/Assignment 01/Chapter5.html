@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 5</title>
+    <style>
+      body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        padding-top: 100px;
+      }
+
+      .home_button {
+        width: 120px;
+        height: 30px;
+        background-color: rgb(66, 36, 36);
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+      }
+    </style>
+    <script src="./Chapter5.js"></script>
+  </head>
+  <body>
+    <!-- First Question -->
+
+    <!-- Addition -->
+
+    <script>
+      var sumnum1 = Number(prompt("Enter Your Number"));
+      var sumnum2 = Number(prompt("Enter Your Second Number"));
+
+      var sum = sumnum1 + sumnum2;
+
+      document.write(
+        "The sum of " + sumnum1 + " and " + sumnum2 + " is : " + sum
+      );
+    </script>
+    <br />
+    <br />
+
+    <!-- Second Question -->
+
+    <!-- Subtraction -->
+
+    <script>
+      var subnum1 = Number(prompt("Enter Your Number"));
+      var subnum2 = Number(prompt("Enter Your Second Number"));
+
+      var subtract = subnum1 - subnum2;
+
+      document.write(
+        "The subtract of " + subnum1 + " and " + subnum2 + " is : " + subtract
+      );
+    </script>
+    <br />
+    <br />
+
+    <!-- Multiplication -->
+
+    <script>
+      var multiplynum1 = Number(prompt("Enter Your Number"));
+      var multiplynum2 = Number(prompt("Enter Your Second Number"));
+
+      var multiply = multiplynum1 * multiplynum2;
+
+      document.write(
+        "The Multiplication of " +
+          multiplynum1 +
+          " and " +
+          multiplynum2 +
+          " is : " +
+          multiply
+      );
+    </script>
+    <br />
+    <br />
+
+    <!-- Division -->
+
+    <script>
+      var Divisionnum1 = Number(prompt("Enter Your Number"));
+      var Divisionnum2 = Number(prompt("Enter Your Second Number"));
+
+      var Division = Divisionnum1 / Divisionnum2;
+
+      document.write(
+        "The Divsion of " +
+          Divisionnum1 +
+          " and " +
+          Divisionnum2 +
+          " is : " +
+          Division
+      );
+    </script>
+    <br />
+    <br />
+
+    <!-- Modulus -->
+
+    <script>
+      var Modulusnum1 = Number(prompt("Enter Your Number"));
+      var Modulusnum2 = Number(prompt("Enter Your Second Number"));
+
+      var remainder = Modulusnum1 % Modulusnum2;
+
+      // document.write("The Modulus of " + Modulusnum1 + " and " + Modulusnum2 + " is : " + Modulus)
+      document.write("Modulus: " + remainder + "<br>");
+    </script>
+    <br />
+    <br />
+    <!-- Fourth Question -->
+
+    <script>
+      var ticketprice = "600";
+      var quantity = Number(prompt("Enter the quantity of ticket you want"));
+
+      var totalprice = ticketprice * quantity;
+
+      document.write("Total Price of tickets are :" + totalprice + "PKR");
+    </script>
+    <br />
+    <br />
+    <!-- Fifth Question -->
+
+    <script>
+      var num = Number(prompt("Enter The Number for Table"));
+      var firstmultiply = num * 1;
+      var secondmultiply = num * 2;
+      var thirdmultiply = num * 3;
+      var fourthmultiply = num * 4;
+      var fifthmultiply = num * 5;
+      var sixthmultiply = num * 6;
+      var seventhmultiply = num * 7;
+      var eighthmultiply = num * 8;
+      var ninthmultiply = num * 9;
+      var tenthmultiply = num * 10;
+
+      document.write(num + " x " + "1" + " = " + firstmultiply + "<br>");
+      document.write(num + " x " + "2" + " = " + secondmultiply + "<br>");
+      document.write(num + " x " + "3" + " = " + thirdmultiply + "<br>");
+      document.write(num + " x " + "4" + " = " + fourthmultiply + "<br>");
+      document.write(num + " x " + "5" + " = " + fifthmultiply + "<br>");
+      document.write(num + " x " + "6" + " = " + sixthmultiply + "<br>");
+      document.write(num + " x " + "7" + " = " + seventhmultiply + "<br>");
+      document.write(num + " x " + "8" + " = " + eighthmultiply + "<br>");
+      document.write(num + " x " + "9" + " = " + ninthmultiply + "<br>");
+      document.write(num + " x " + "10" + " = " + tenthmultiply + "<br>");
+    </script>
+    <br />
+    <br />
+
+    <!-- Sixth Question -->
+
+    <script>
+      // Celsius to Fahrenheit
+      var celsius = 25;
+      var fahrenheit = (celsius * 9) / 5 + 32;
+      document.write(celsius + "°C is " + fahrenheit + "°F<br>");
+
+      // Fahrenheit to Celsius
+      var fahrenheit2 = 70;
+      var celsius2 = ((fahrenheit2 - 32) * 5) / 9;
+      document.write(fahrenheit2 + "°F is " + celsius2 + "°C");
+    </script>
+    <br />
+    <br />
+    <!-- Seventh question -->
+
+    <script>
+      // Variables
+      var priceItem1 = 650;
+      var quantityItem1 = 3;
+      var priceItem2 = 100;
+      var quantityItem2 = 7;
+      var shippingCharges = 100;
+
+      // Total cost calculation
+      var totalCost =
+        priceItem1 * quantityItem1 +
+        priceItem2 * quantityItem2 +
+        shippingCharges;
+
+      // Show receipt
+      document.write("Price of item 1 is " + priceItem1 + "<br>");
+      document.write("Quantity of item 1 is " + quantityItem1 + "<br>");
+      document.write("Price of item 2 is " + priceItem2 + "<br>");
+      document.write("Quantity of item 2 is " + quantityItem2 + "<br>");
+      document.write("Shipping Charges " + shippingCharges + "<br><br>");
+      document.write("<b>Total cost of your order is " + totalCost + "</b>");
+    </script>
+    <br />
+    <br />
+    <!-- Eighth Question -->
+
+    <h1>Mark Sheet</h1>
+
+    <script>
+      var total_marks = 980;
+      var obtainedmarks = 804;
+      var totalpercentage = (obtainedmarks / total_marks) * 100;
+
+      document.write("Total Marks: " + total_marks + "<br>");
+      document.write("Marks obtained: " + obtainedmarks + "<br>");
+      document.write("Percentage:" + totalpercentage + "%" + "<br>");
+    </script>
+    <br />
+    <br />
+    <!-- Ninth Question -->
+
+    <h1>Currency in PKR</h1>
+
+    <script>
+      var usdollar = 104.8;
+      var riyal = 28;
+      var totalusdollar = usdollar * 10;
+      var totalriyal = riyal * 25;
+
+      var pkr = totalusdollar + totalriyal;
+
+      document.write("Total Currency in PKR: " + pkr);
+    </script>
+    <br />
+    <br />
+    <!-- Tenth Question -->
+
+    <script>
+      var number = 7;
+      var result = ((number + 7) * 10) / 2;
+
+      console.log("Tenth qustion anser is:  " + result);
+    </script>
+    <br />
+    <br />
+
+    <!-- Eleventh Question -->
+
+    <h1>Age Calculator</h1>
+
+    <script>
+      var currentyear = 2025;
+      var birth_year = 2010;
+      var age = currentyear - birth_year;
+
+      document.write("Current Year: " + currentyear + "<br>");
+      document.write("Birth Year: " + birth_year + "<br>");
+      document.write("Your age is: " + age + "<br>");
+    </script>
+    <br />
+    <br />
+    <!-- Twelvth Question -->
+
+    <h1>The Geometrizer</h1>
+
+    <script>
+      var radius = 20;
+      var pi = 3.142;
+
+      var circumference = 2 * pi * radius;
+      var area = pi * radius * radius;
+
+      document.write("Radius of the circle: " + radius + "<br>");
+      document.write("The circumference is " + circumference + "<br>");
+      document.write("The area is " + area);
+    </script>
+    <br />
+    <br />
+    <!-- Thirteenth Question -->
+
+    <h1>The Lifetime Supply Calculator</h1>
+
+    <script>
+      var favoriteSnack = "Chocolates";
+      var currentAge = 14;
+      var maxAge = 80;
+      var snacksPerDay = 2;
+
+      var yearsRemaining = maxAge - currentAge;
+      var totalSnacks = yearsRemaining * 365 * snacksPerDay;
+
+      document.write("Your favorite snack: " + favoriteSnack + "<br>");
+      document.write("Your current age: " + currentAge + "<br>");
+      document.write("Estimated maximum age: " + maxAge + "<br>");
+      document.write("Snacks per day: " + snacksPerDay + "<br><br>");
+      document.write(
+        "You will need <strong>" +
+          totalSnacks +
+          "</strong> " +
+          favoriteSnack +
+          " to last you until the ripe old age of " +
+          maxAge +
+          "."
+      );
+    </script>
+
+    <a href="./index.html">
+      <div class="home_button">
+        <p>Back to home</p>
+      </div>
+    </a>
+  </body>
+</html>

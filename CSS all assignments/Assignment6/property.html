@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/png" href="./Images/fabicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Property</title>
+    <link rel="stylesheet" href="./property.css" />
+  </head>
+  <body>
+    <header>
+      <div class="_Header_all_content">
+        <!-- Olx Logo Bar -->
+
+        <div class="_olx_logo_bar_div">
+          <a href="#">
+            <div class="_olx_logo_img_div">
+              <img src="./Images/olxlogo.png" class="_olx_logo_img" />
+            </div>
+          </a>
+          <!-- Motors  -->
+          <a>
+            <div class="_olx_motors_iconimg_and_p_div">
+              <div class="_olx_motors_iconimg">
+                <img src="./Images/Motors_img.png" />
+              </div>
+              <div class="_olx_motors_p_div">
+                <p>Motors</p>
+              </div>
+            </div>
+          </a>
+          <!-- Properties -->
+          <a>
+            <div class="_olx_properties_iconimg_and_p_div">
+              <div class="_olx_properties_iconimg">
+                <i class="fa-solid fa-building"></i>
+              </div>
+              <div class="_olx_properties_p_div">
+                <p>Properties</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="_header_navbar">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"
+                ><img src="./Images/olxpropertylogo.jpg"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="./index.html"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Sale
+                    </a>
+                  </li>
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="./index.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Rent
+                  </a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Blog</a>
+                  </li>
+                  <li class="nav-item _header_proficon_dropdownicon">
+                    <a class="nav-link" href="./index.html">
+                      <img
+                        src="./Images/iconProfilePicture.png"
+                        class="_header_profile_iconimg"
+                      />
+                      <i
+                        class="fa-solid fa-greater-than fa-rotate-90 _header_dropdownicon"
+                      ></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <div class="_nav_Sell">
+                      <img
+                        src="./Images/sell_icin.jpg"
+                        class="Sellbutton_img"
+                      />
+                      <p>+SELL</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="_search_browse_properties">
+        <div class="_search_property_div">
+          <h2 class="_search_property_h2">Search properties for sale</h2>
+
+          <div class="_sale_rent_button_div">
+            <div class="_search_property_sale_button">
+              <p>Sale</p>
+            </div>
+
+            <div class="_search_property_rent_button">
+              <p>Rent</p>
+            </div>
+          </div>
+
+          <!-- land plot dropdown input -->
+
+          <select placeholder="Land & Plots" class="_land_plot_dropdown_div">
+            <option>Land & Plots</option>
+            <option>Houses</option>
+            <option>Apartments & Flats</option>
+            <option>Shop - Offices - Commercial Spaces</option>
+            <option>Portion & Floors</option>
+          </select>
+
+          <!-- Search location city dropdown -->
+
+          <div class="_search_property_location_input">
+            <input
+              type="search"
+              placeholder="Select Location"
+              class="_location_input"
+            />
+
+            <!-- Location dropdown input -->
+
+            <select class="_location_dropdown">
+              <option>Lahore</option>
+              <option>Karachi</option>
+              <option>Islamabad</option>
+              <option>Rawalpindi</option>
+              <option>Portion & Floors</option>
+            </select>
+          </div>
+
+          <!-- Area Size -->
+
+          <div class="Area_Size_div">
+            <div class="_area_size_heading_dropdown">
+              <p class="_area_size_p">Area Size</p>
+
+              <select class="_area_size_dropdown">
+                <option>Marla</option>
+                <option>Square Feet</option>
+                <option>Square Yards</option>
+                <option>Square Meter</option>
+                <option>Marla</option>
+                <option>Kanal</option>
+              </select>
+            </div>
+
+            <!-- Min Max  -->
+
+            <div class="_min_max_input_div">
+              <input type="text" placeholder="Min" class="_min_input" />
+              <input type="text" placeholder="Max" class="_max_input" />
+            </div>
+
+            <input type="range" class="_min_max_range_input" />
+
+            <!-- Search button -->
+
+            <div class="_Search_button_div">
+              <p><i class="fa-solid fa-magnifying-glass"></i> SEARCH</p>
+            </div>
+          </div>
+        </div>
+        <!-- Browse Properties -->
+
+        <div class="_browse_properties_div">
+          <h3 class="_browse_properties_heading">Browse Properties</h3>
+
+          <div class="_browse_properties_tabs_button">
+            <p class="_browse_properties_Popular_p">Popular</p>
+            <p class="_browse_properties_others_p">Area Unit</p>
+            <p class="_browse_properties_others_p">Categories</p>
+            <p class="_browse_properties_others_p">Cities</p>
+            <p class="_browse_properties_others_p">Price Ranges</p>
+          </div>
+
+          <div class="_browse_properties_boxes">
+            <div class="_browse_properties_small_box">
+              <div class="_browse_properties_small_box_text">
+                <p class="_browse_properties_small_box_p">Small</p><br><br>
+                <p class="_browse_properties_houses_p">Houses</p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+      integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

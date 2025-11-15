@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Assignment</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main_div" id="main_div">
+      <!-- Header -->
+
+      <header>
+        <p class="brand_name">Veloura</p>
+        <input
+          type="search"
+          class="Search_bar"
+          id="Search_bar"
+          placeholder="Search products, e.g. sneakers, bags..."
+        />
+        <div id="cart_counter" class="cart_counter">0</div>
+        <div id="cart_button" class="cart_button">Cart</div>
+      </header>
+
+      <!-- Ad Section -->
+
+      <section class="Ad_section" id="Ad_section">
+        <!-- Text Section -->
+        <div class="ad_section_txt">
+          <h1 class="ad_section_txt_h1">Fresh picks for your next look</h1>
+          <p class="ad_section_txt_p">
+            Discover trendy outfits and exclusive deals—shop the latest styles
+            with fast delivery and easy returns.
+          </p>
+          <div class="shopnow_button" id="shopnow_button">Shop Now</div>
+        </div>
+        <!-- Ad Slider -->
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide Ad_slider"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./Assets/sneakersimg.jpeg"
+                class="d-block w-100 ad_slider_images"
+                alt="Product Image"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./Assets/jeansimg.jpeg"
+                class="d-block w-100 ad_slider_images"
+                alt="Product Image"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./Assets/handbag2img.jpeg"
+                class="d-block w-100 ad_slider_images"
+                alt="Product Image"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./Assets/teeimg2.jpeg"
+                class="d-block w-100 ad_slider_images"
+                alt="Product Image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tabs Section -->
+      <div class="filters" id="filters">
+        <div class="tabs active" data-product="all">All</div>
+        <div class="tabs" data-product="Clothing">Clothing</div>
+        <div class="tabs" data-product="Shoes">Shoes</div>
+        <div class="tabs" data-product="Accessories">Accessories</div>
+      </div>
+
+      <!-- Product Card -->
+      <main>
+        <div class="Product_card" id="Product_card"></div>
+      </main>
+    </div>
+
+    <!-- Inner Card -->
+    <div class="innercard_div" id="innercard_div">
+      <div class="inner_card" id="inner_card">
+        <img
+          src=""
+          class="inner_card_img"
+          id="inner_card_img"
+          alt="Product Image"
+        />
+        <div class="about_product">
+          <h2 class="Product_title" id="Product_title">Product Name</h2>
+          <div class="Product_category" id="Product_category">Category</div>
+          <p class="Product_description" id="Product_description">
+            Description
+          </p>
+          <div
+            style="font-weight: 700; font-size: 20px; margin-bottom: 12px"
+            id="modalPrice"
+          >
+            $0
+          </div>
+          <div class="close_add_buttons">
+            <button class="AddCart_btn" id="AddCart_btn">Add To Cart</button>
+            <button class="closeinnercard_btn" id="closeinnercard_btn">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <!-- Column 1: Brand -->
+        <div class="footer-col">
+          <h2 class="logo">Veloura</h2>
+          <p class="tagline">
+            Quality products delivered with care. Shop smart, live better.
+          </p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Offers</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Customer Service -->
+        <div class="footer-col">
+          <h3>Customer Service</h3>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Shipping & Returns</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Veloura. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- All Scripts -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+      integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

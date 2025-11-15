@@ -1,0 +1,53 @@
+@font-face {
+    font-family:poppins_italic;
+    src: url('./Fonts/Poppins-Italic.ttf');
+}
+@font-face {
+    font-family:roboto_variable ;
+    src: url('./Fonts/roboto_variable.ttf.ttf');
+}
+@font-face {
+    font-family:winkysans-variable ;
+    src: url('./Fonts/WinkySans-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family:gidole ;
+    src: url('./Fonts/Gidole-Regular.ttf');
+}
+
+@font-face {
+    font-family: big_shoulders;
+    src: url('./Fonts/BigShoulders-VariableFont_opsz\,wght.ttf');
+}
+
+
+
+
+
+.page1 {
+    font-family: poppins_italic ;
+    font-size: 180%;
+}
+
+.page2 {
+    font-family: roboto_variable;
+    font-size: 180%;
+}
+
+.page3 {
+    font-family:winkysans-variable ;
+    font-size: 180%;
+}
+
+.page4 {
+    font-family: gidole;
+    font-size: 180%;
+}
+
+.page5 {
+    font-family: big_shoulders;
+    font-size: 180%;
+}
+
+

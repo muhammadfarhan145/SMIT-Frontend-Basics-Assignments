@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+.header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link_and_contact {
+    font-size: larger;
+}
+
+.navbar {
+    font-size: 150%;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+p {
+    font-size: larger;
+}

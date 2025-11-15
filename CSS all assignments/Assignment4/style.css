@@ -1,0 +1,111 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url('./Images/bgimg1.png');
+}
+
+main {
+    margin-left: 550px;
+}
+
+.AoA_heading {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.AoA_heading h1 {
+    font-size: 100px;
+    color: #FFD700;
+}
+
+.all_four_button_div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.all_four_button_div a {
+    text-decoration: none;
+}
+
+.Button_1_2_div {
+    display: flex;
+    gap: 20px;
+}
+
+.button_1 {
+    width: 200px;
+    height: 50px;
+    background-color: #FFD700;
+    border-radius: 8px;
+    border: 3px solid black;
+}
+
+.button_1 p {
+    font-size: 26px;
+    color: black;
+    margin: 10px 25px;
+    font-weight: 500;
+}
+
+.button_2 {
+    width: 200px;
+    height: 50px;
+    background-color: #FFD700;
+    border-radius: 8px;
+    border: 3px solid black;
+    
+}
+
+.button_2 p {
+    font-size: 26px;
+    color: black;
+    margin: 10px 25px;
+    font-weight: 500;
+} 
+
+.Button_3_4_div {
+    display: flex;
+    gap: 20px;
+}
+
+.button_3 {
+    width: 200px;
+    height: 50px;
+    background-color: #FFD700;
+    border-radius: 8px;
+    border: 3px solid black;
+}
+
+.button_3 p {
+    font-size: 26px;
+    color: black;
+    margin: 10px 25px;
+    font-weight: 500;
+}
+
+.button_4 {
+    width: 200px;
+    height: 50px;
+    background-color: #FFD700;
+    border-radius: 8px;
+    border: 3px solid black;
+    
+}
+
+.button_4 p {
+    font-size: 26px;
+    color: black;
+    margin: 10px 25px;
+    font-weight: 500;
+} 
+
+        /* footer */
+
+h4 {
+    margin: 350px auto 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}

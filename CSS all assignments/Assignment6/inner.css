@@ -1,0 +1,739 @@
+Body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+        /* Header */
+
+._Header_all_content {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding-top: 16px;
+    border-bottom: 1px solid rgb(225, 211, 211);
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 999;
+    top: 0;
+}
+
+._olx_logo_bar_div{
+    display: flex;
+    margin: 0  0 0 300px ;
+}    
+
+._olx_logo_img {
+    width: 56px;
+    height: 32px;
+    margin-right: 40px;
+}
+
+        /* Motors */
+
+._olx_motors_iconimg_and_p_div {
+    display: flex;
+    
+}
+
+._olx_motors_iconimg {
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    width: 45px;
+    height: 45px;
+}
+
+._olx_motors_iconimg img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+
+._olx_motors_p_div p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    margin-top: 8px;
+}
+
+        /* properties */
+
+ ._olx_properties_iconimg_and_p_div {
+    display: flex;
+    margin-top: 7px;
+    margin-left: 50px 
+           
+}
+        
+._olx_properties_iconimg {
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    width: 45px;
+    height: 45px;        
+}
+        
+._olx_properties_iconimg img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;    
+}
+        
+._olx_properties_p_div p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 550; 
+ }
+
+        /* Nav bar */
+
+._navbar_all_content{  
+    padding: 0px 0 16px;
+    display: flex;
+    gap: 15px;
+    margin: 0 0 0 310px;
+}
+
+.input1{
+    width: 293px;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+._nav_inp_2{
+    width: 766px;
+    display: flex
+}
+
+._inp_2{
+    width: 719px ;
+    height: 49px;
+    font-size: medium;
+    border-radius: 3px;
+    border: 1px solid grey;
+    padding: 0px 0px 0px 12px;
+    color: white;
+}
+
+._search_button{
+    width: 48px;
+    height: 48px;
+}
+
+._button_1{
+    display: flex;
+    width: 44px;
+    height: 49px;
+    background-color: #002F34; 
+}
+
+._serach_img_1{
+    margin: 3px 0 ;
+    padding: 3px 2px 2px;
+    
+}
+
+.search_icon {
+    color: white;
+    font-size: larger;
+    padding: 6px 3px;
+}
+
+ /* Login Button  */
+
+._loginandsell_div{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    
+}
+
+._nav_login{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+._login_button{
+    width: 40px;
+    height: 22px;
+}
+
+._login_button{
+    font-weight: 700;
+    font-size: 17px;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+
+    /* Sell Button */
+
+._nav_Sell {
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.Sellbutton_img {
+    position: absolute;
+}
+
+._nav_Sell p{
+    position: absolute;
+    z-index: 998;
+    margin-top: 11px;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+    /* main */
+
+main {
+    margin-top: 150px;
+}
+
+._carousel_and_profile {
+    display: flex;
+    max-width: 1315px;
+    margin: 0 auto;
+}
+
+._inner_carousel_imgdiv {
+    background-color: #F6F6F6;
+    width: 850px;
+    height: 605px;
+}
+
+._BS_carouselitem_images {
+    border: 1px solid #a8a8a8;
+    margin-bottom: 30px;
+}
+
+._inner_carousel_img {
+    width: 450;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.carousel-control-prev-icon {
+    background-color: gray;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    height: 40px;
+    width: 35px;
+}
+
+.carousel-control-next-icon {
+    background-color: gray;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    height: 40px;
+    width: 35px;
+}
+
+    /* Carousel side Price box  */
+
+._item_price_and_name_div {
+    border: 1px solid #a8a8a8;
+    border-radius: 3px;
+    padding: 16px;
+    height: 161px;
+}
+
+._item_price_h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 15px;
+}
+
+._item_price_and_icons_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+._two_icons_div i {
+    color: #002F34;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+._item_name_p {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+._item_location_p_and_icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+._item_location_p {
+    font-weight: 300;
+    margin: 10px 0 0;
+}
+
+._item_location_icon {
+    margin-right: 7px;
+}
+
+._item_time_p {
+    color: #002F34;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+    /* Detail Box */
+
+._detail_box {
+    border: 1px solid #a8a8a8;
+    border-radius: 3px;
+    padding: 16px;
+    height: 161px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+._Detail_heading {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+._Detail_Brand_model {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+._detail_brand_div {
+    display: flex;
+    background-color: #F2F4F5;
+    justify-content: space-between;
+    width: 388px;
+    height: 38px;
+}
+
+._detail_brand_brand_p {
+    font-size: 14px;
+    margin: 5px 10px;
+}
+
+._detail_brand_itemname_p {
+    font-size: 14px;
+    margin: 5px 100px 5px 0px;
+    font-weight: 700;
+    color: #002F34;
+}
+
+._detail_Model_div {
+    display: flex;
+    background-color: #F2F4F5;
+    justify-content: space-between;
+    width: 388px;
+    height: 38px;
+}
+
+._detail_Model_Model_p {
+    font-size: 14px;
+    margin: 5px 10px;
+}
+
+._detail_Model_p {
+    font-size: 14px;
+    margin: 5px 100px 5px 0px;
+    font-weight: 700;
+    color: #002F34;
+}
+
+._detail_condition_div {
+    display: flex;
+    justify-content: space-between;
+    width: 388px;
+    height: 38px;
+}
+
+._detail_condition_condition_p {
+    font-size: 14px;
+    margin: 5px 10px;
+}
+
+._detail_condition_used_p {
+    font-size: 14px;
+    margin: 5px 100px 5px 0px;
+    font-weight: 700;
+    color: #002F34;
+}
+
+    /* Description box */
+
+._description_box {
+    height: 330px;
+    border: 1px solid #a8a8a8;
+    border-radius: 3px;
+    padding: 16px;
+}
+
+._description_heading {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+._description_box p {
+    margin: 0;
+}
+
+._description_box_specs_div {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+._Description_specs_p {
+    font-size: 14px;
+}
+
+._description_box_contacts p {
+    margin: 0;
+}
+
+._description_call_whatsapp_p {
+    color: #002f34;
+    font-size: 15px;
+}
+
+._description_viewnumber_p {
+    color:#3a77ff;
+    font-size: 12px;
+}
+
+._description_shop_p {
+    font-size: 14px;
+    color: #002f34;
+}
+
+    /* Related Ads */
+
+    /* More in Cars */
+
+._All_cardsrow_div {
+    display: flex;
+    flex-direction: column;
+    max-width: 1315px;
+    margin: 0 auto ;
+    margin-top: 30px;
+}
+
+._heading_and_view_morebutton {
+    display: flex;
+    justify-content: space-between;
+}
+
+._All_cardsrow_heading h3 {
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+._Viewmore_button p {
+    color: #3A77FF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+._Viewmore_button i {
+    margin-left: 5px;
+    margin-top:  20px;
+    margin-bottom: 0;
+}
+
+    /* Cars Section */
+
+._cars_sec_row {
+    display: flex;
+    gap: 20px;
+}
+._innnerpageslinking_a {
+    text-decoration: none;
+    color: black;
+}
+
+._cars_sec_all_car {
+    width: 316px;
+    height: 335px;
+}
+
+._all_Cars_img {
+    width: 316px;
+    height: 158px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+._cars_sec_text {
+    margin: 0;
+    padding: 10px 20px ;
+    border: 2px solid #e6dcdc;
+    border-top: none;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+} 
+
+._cars_sec_all_cars_price i {
+    float: right;
+    margin-top: 15px;
+}
+
+._cars_sec_all_cars_price {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+._cars_sec_all_cars_names {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #222222;
+    margin-top: 5px;
+}
+
+._cars_sec_all_cars_km_year {
+    margin-bottom: 3px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+._cars_sec_all_cars_km_year i {
+    margin-right: 3px;
+
+}
+
+._cars_sec_all_cars_location {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+._cars_sec_all_cars_weeks_ago {
+    font-size: 13px;
+}
+
+._last_ad_img {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+._last_card_img {
+    width: 973px;
+    height: 100%;
+
+}
+
+
+
+
+
+
+/* sereririoyh */
+
+._see_profile {
+    display: flex;
+}
+
+
+._private_user {
+    background-color: #FFFFFF;
+    height: 220px;
+    width: 410px;
+    margin-left: 20px;
+    border: 1px solid rgb(162, 160, 160);
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+._private_user_text_div {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+._profile_inner_img {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+._profile_text_P {
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+._profile_text_P p {
+    margin: 0;
+    
+}
+
+._user_name_p {
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 4px;
+    color:#002F34;
+}
+
+._user_name_year_p {
+    font-size: 16px;
+    padding-bottom: 4px;
+    color:#002F34;
+}
+
+._see_profile_p {
+    color:#002F34 ;
+    font-weight: 600;
+}
+
+._chat_box {
+    margin-top: 25px;
+    height: 46px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+._chat_text_p {
+    text-align: center;
+    margin-top: 7px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+._chat_text_p i {
+    margin-right: 10px;
+}
+
+    /* Profile side Location Box */
+
+._Profile_side_location_div {
+    width: 410px;
+    height: 92px;
+    border: 1px solid rgb(162, 160, 160);
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+._Profile_side_location_h3 {
+    color: #002F34;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+._Profile_side_location_p {
+    font-size: 18px;
+    color: #002F34
+}
+
+._Profile_side_location_icon {
+    color: #002F34;
+    margin-right: 7px;
+}
+
+    /* Profile ID and Report */
+
+._profileID_report_div {
+    display: flex;
+    width: 410px;
+    margin-left: 20px;
+    gap: 140px;
+    margin-top: 10px;
+}
+
+._profileID_report_num_p {
+    color: #002F34;
+    font-size: 17px;
+}
+
+._profileID_report_p {
+    color: #002F34;
+    font-weight: 600;
+}
+._profileID_report_icon {
+    margin-right: 7px;
+}
+
+    /* Profile Side Ad */
+
+._profile_side_ad_div {
+    width: 410px;
+    margin: 0 60px;
+}
+
+    /* Footer */
+
+._footer_main_div_2 {
+    display: flex;
+    justify-content: center;
+    /* gap: 100px; */
+    /* justify-content: space-evenly; */
+    gap: 200px;
+    background-color: #F7F8F9;
+    border-top: 1px solid rgb(225, 211, 211);
+    height: 195px;
+    margin-top: 30px;
+}
+
+._footer_main_div_2 h6 {
+    color: #002F34;
+}
+
+._footer_main_div_2 p {
+    margin: 0 0 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #002F34;
+}
+
+._footer_main_div_2_categories {
+    margin-top: 20px;
+}
+
+._footer_main_div_2_searches {
+    margin-top: 20px;   
+}
+
+._footer_main_div_2_Aboutus {
+    margin-top: 20px;
+}
+
+._footer_main_div_2_help {
+    margin-top: 20px;
+}
+
+._footer_main_div_2_followus {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+._followus_icons_p {
+    display: flex;
+    gap: 10px;
+}
+
+._footer_main_div2_img_div {
+    display: flex;
+}
+
+._footer_main_div2_img_div img {
+    width: 84px;
+    height: 28px;
+}
+
+

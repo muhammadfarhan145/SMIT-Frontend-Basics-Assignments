@@ -1,0 +1,567 @@
+
+@font-face {
+    font-family: stencils;
+    src: url('./fonts/BigShouldersStencil-VariableFont_opsz,wght.ttf');
+}
+@font-face {
+    font-family: Gidole-r;
+    src: url(./fonts/Gidole-Regular.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html, body {
+    
+}
+
+.marquee_section {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px 50px;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.franchise_button {
+    background-color: white;
+    color: black;
+}
+
+.order_button {
+    background-color: red;
+    color: white;
+}
+
+.buttons a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+marquee {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.gap {
+    margin-right: 20px;
+    height: 800px; 
+}
+
+.welcome {
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+#gg {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 50px;
+     font-family:gidole-r ;
+     font-weight: 700;
+}
+
+.welcome span {
+    color: rgb(255, 255, 255);
+    font-family: stencils;
+    font-size: larger;
+}
+
+.welcome p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.brand {
+    text-align: center;
+}
+
+.brand img {
+    width: 280px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+}
+
+.brand button {
+    background-color: rgb(33, 27, 27);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: wavy;
+}
+
+.main {
+ 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  
+}
+
+.Restaurants_Franchises {
+    background-color: rgb(15 , 15 , 15);
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+.Restaurants_Franchises h1 {
+ font-family: stencils;
+ font-size: 50px;
+ font-weight: bold;
+}
+.instruction {
+    font-size: 20px;
+    color: #5f5757;
+    padding-bottom: 8px;
+}
+
+table {
+    padding-top: 1px;
+    padding-left: 8%;
+   border-collapse: separate;
+   
+}
+
+.islamabad {
+    color: rgb(243, 0, 0);
+    font-size: larger;
+    letter-spacing: 10px ;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.t1_SnP {
+    font-weight: 1000;
+    font-size: 40px;
+    font-family: stencils ;
+    letter-spacing: 2px;
+}
+.SnP_r1_restaurant {
+    font-size: 32px;
+    padding-left: 2px;
+    font-family: Gidole-r;
+}
+
+.r1_location {
+  font-family:Gidole-r ;  
+  color: #535050;
+}
+
+.r1_Phone {
+    font-family:Gidole-r ;  
+    color: #535050;
+}
+.get_direction {
+    background-color: rgb(33, 27, 27);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: wavy;
+}
+
+.Faisalabad {
+    color: rgb(243, 0, 0);
+    font-size: larger;
+    letter-spacing: 10px ;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.t2_SnP {
+    font-weight: 1000;
+    font-size: 40px;
+    font-family: stencils ;
+    letter-spacing: 2px;
+}
+.SnP_r2_restaurant {
+    font-size: 32px;
+    padding-left: 2px;
+    font-family: Gidole-r;
+}
+
+.r2_location {
+  font-family:Gidole-r ;  
+  color: #535050;
+}
+
+.r2_Phone {
+    font-family:Gidole-r ;  
+    color: #535050;
+}
+
+.Bahawalpur {
+    color: rgb(243, 0, 0);
+    font-size: larger;
+    letter-spacing: 10px ;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.t3_SnP {
+    font-weight: 1000;
+    font-size: 40px;
+    font-family: stencils ;
+    letter-spacing: 2px;
+}
+.SnP_r3_restaurant {
+    font-size: 32px;
+    padding-left: 2px;
+    font-family: Gidole-r;
+}
+
+.r3_location {
+  font-family:Gidole-r ;  
+  color: #535050;
+}
+
+.r3_Phone {
+    font-family:Gidole-r ;  
+    color: #535050;
+}
+
+.Express_Franchises {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+
+.Express_Franchises h2 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family:Baskerville Old Face;
+}
+
+.header_snp {
+    font-size: 60px;
+    font-weight: bold;
+   font-family: stencils;
+}
+
+.expressfranchisesimages {
+    width: 418px;
+    height: 248px;
+}
+
+.Sargodha {
+    color: rgb(243, 0, 0);
+    font-size: smaller;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Jhelum {
+    color: rgb(243, 0, 0);
+    font-size: smaller;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Faisal_Town {
+    color: rgb(243, 0, 0);
+    font-size: smaller;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.DHA {
+    color: rgb(243, 0, 0);
+    font-size: smaller;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Bahria_Town {
+    color: rgb(243, 0, 0);
+    font-size: smaller;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Gujar_Khan {
+    color: rgb(243, 0, 0);
+    font-size: smaller;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Lahore {
+    color: rgb(243, 0, 0);
+    font-size: smaller;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Gujrat {
+    color: rgb(243, 0, 0);
+    font-size: smaller;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Sahiwal {
+    color: rgb(243, 0, 0);
+    font-size: smaller;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.expressfranchises_locations {
+    font-family:Gidole-r ;  
+    color: #535050;
+}
+
+.expressfranchises_phone {
+    font-family:Gidole-r ;  
+    color: #535050;
+}
+
+.SnpExpressfranchises_allSnp {
+    font-size: 30px;
+    font-family: stencils;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.SnpExpressfranchises_all_Express {
+   font-size: 24px;
+    padding-left: 2px;
+    font-family: Gidole-r;
+}
+
+.SnpExpressfranchises_buttons {
+    background-color:rgb( 33, 27 , 27 ) ;
+    color: white;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid white;
+}
+
+.Village_Franchises_table {
+    padding-left: 0;
+}
+
+.Village_Franchises{
+    background-color:rgb(15 , 15 , 15 ) ;
+}
+
+
+.Village_Franchises1img {
+    width: 939px;
+    height: 536px;
+    margin-right: 20px;
+}
+
+.Gujranwala {
+    color: rgb(243, 0, 0);
+    font-size: 16px;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.SnpVillagesfranchises_Snp {
+    color: white;
+    font-family: stencils;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.SnpVillageFranchises_Village {
+    color: white;
+    font-family: Gidole-r;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.VillageFranchises_location {
+    font-family:Gidole-r ;  
+    color: #535050;
+}
+
+.VillageFranchises_phone {
+    font-family:Gidole-r ;  
+    color: #535050;
+}
+
+.Village_Franchises_button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+.Village_Franchises_button:hover {
+    background-color: rgb( 15, 15 , 15 );
+}
+
+.Expressfranchises_comingsoonandsocialfeed {
+    background-color: black;
+    
+}
+
+.Expressfranchises_Expresscoming {
+    text-align: center;
+    font-weight: 1000;
+    font-size: 32px;
+    font-family: Baskerville Old Face ;
+    letter-spacing: 2px;
+    color: white;
+    
+}
+
+.Expressfranchises_Snpcoming {
+    font-family: stencils;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.allexpressfranchisescomingsoonimage {
+    margin-left: 100px;
+}
+
+.Socialfeed_heading {
+    color: white;
+    font-family: Baskerville Old Face;
+    text-align: center;
+}
+
+.socialfeed_images {
+    width: 360px;
+    height: 360px;
+    margin:0 ;
+}
+
+.Socialfeed_table {
+ border-spacing: 15px;
+ padding-left: 0;
+ margin: 0;
+}
+
+.footer {
+    background-color: rgb( 15, 15 , 15 );
+}
+
+.footer_table {
+    border-spacing: 60px;
+}
+
+.Snplogofooter {
+    height: 70px;
+    width: 140px;
+    
+}
+
+.footer_Snp {
+    color: white;
+    font-family: Baskerville Old Face;
+}
+
+.footer_Snp_p {
+    font-family:Gidole-r ;  
+    color: #535050;
+    letter-spacing: 1px;
+}
+
+.footer_sitelinks {
+    color: white;
+    font-family: Baskerville Old Face;
+}
+
+.sitelinks {
+    color: #535050;
+    font-family:Gidole-r ;
+    text-decoration: none;
+
+    letter-spacing: 1px;
+}
+
+.footer_Contact{
+    color: white;
+    margin-top: 0px;
+    font-family: Baskerville Old Face;
+}
+
+.footer_Contactall_headings{
+    color: white;
+}
+
+.footer_contactsall_p {
+    color: #535050;
+    font-family:Gidole-r ;
+    text-decoration: none;
+    margin-left: 0px;
+    letter-spacing: 1px;
+}
+
+.footer_follow_heading {
+    color: white;
+    margin-top: 0px;
+    font-family: Baskerville Old Face;
+}
+
+.footer_followus_images {
+    width: 42px;
+    height: 42px;
+}
+
+.footerfollowus_iconimages {
+    width: 150px;
+    height: 110px;
+}

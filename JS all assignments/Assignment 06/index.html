@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 6</title>
+    <script src="./app.js"></script>
+  </head>
+  <body>
+    <!-- First Question -->
+    <script>
+      var Userinput = prompt("Enter A Positive Number");
+      var number = parseFloat(Userinput);
+
+      if (number > 0) {
+        document.write("a. number: " + number + "<br>");
+        document.write("b. Round off value: " + Math.round(number) + "<br>");
+        document.write("c. Floor value: " + Math.floor(number) + "<br>");
+        document.write("d. Ceil value: " + Math.ceil(number) + "<br>");
+      } else {
+        alert("Please write a valid number");
+      }
+    </script>
+    <br />
+    <br />
+    <!-- Second Question -->
+
+    <script>
+      var userInput = prompt("Enter a negative floating point number:");
+      var number = parseFloat(userInput);
+
+      if (number < 0 && userInput.includes(".")) {
+        document.write("<h2>Negative Number Info</h2>");
+        document.write("a. Number: " + number + "<br>");
+        document.write("b. Round off value: " + Math.round(number) + "<br>");
+        document.write("c. Floor value: " + Math.floor(number) + "<br>");
+        document.write("d. Ceil value: " + Math.ceil(number) + "<br>");
+      } else {
+        alert("Please enter a valid negative floating point number.");
+      }
+    </script>
+    <br />
+    <br />
+    <!-- Third Question -->
+
+    <script>
+      var userInput = prompt("Enter any number:");
+      var number = parseFloat(userInput);
+      var absoluteValue;
+
+      if (number < 0) {
+        absoluteValue = number * -1;
+      } else {
+        absoluteValue = number;
+      }
+    </script>
+    <br />
+    <br />
+    <!-- Fourth Question -->
+
+    <script>
+      var dice = Math.floor(Math.random() * 6) + 1;
+
+      document.write("Random Dice values:" + dice);
+    </script>
+
+    <!-- Fifth Question -->
+
+    <script>
+      var toss = Math.floor(Math.random() * 2);
+
+      var result;
+      if (toss === 0) {
+        result = "Heads";
+      } else {
+        result = "Tails";
+      }
+
+      document.write("Random Value is: " + result);
+    </script>
+    <br />
+    <br />
+    <!-- Sixth Question -->
+
+    <script>
+      var random_number = Math.floor(Math.random() * 100);
+      document.write("Random Number Between 1 To 100: " + random_number);
+    </script>
+    <br />
+    <br />
+    <!-- Seventh Question -->
+    <script>
+      var userweight = prompt("Enter Your Weight In Kilograms");
+      var Weight = parseFloat(userweight);
+
+      if (!isNaN(Weight)) {
+        document.write("your weight is: " + Weight);
+      } else {
+        document.write("Invalid input. Please enter a valid number.");
+      }
+    </script>
+    <br />
+    <br />
+
+    <!-- Eighth Question -->
+    <script>
+      var secret_number = 8;
+      var UserGuess_number = prompt("Enter a Number between 1 To 10");
+
+      if (UserGuess_number === secret_number) {
+        alert("Congratulations!");
+      } else {
+        alert("Please Try Again !");
+      }
+    </script>
+  </body>
+</html>

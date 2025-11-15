@@ -1,0 +1,1692 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+.cardbar {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #919191;
+    height: 65px;
+}
+
+.cards_bar_img1_div {
+    box-shadow: 0 0 7px 1px #666666;
+    height: 64px;
+    width: 103px;
+    background-color: #ffffff;
+    margin: 0 10px;
+}
+
+.pokemoncardimg1{
+    height: 45px;
+    width: 79px;
+    padding: 9px 10px 8px;
+}
+
+.cards_barimg2_3_div {
+    margin: 0 5px 0 0;
+    padding-right: 5px;
+    border-right: 1px solid #919191;
+    padding: 9px 10px 8px;
+}
+
+.pokemoncardimg2 {
+    border-right: 1px solid #919191;
+    
+}
+
+.cards_barimg456_div {
+    padding-top: 7px;
+  
+}
+
+.pokemoncardimg3{
+    height: 50px;
+}
+
+.pokemoncardimg4 {
+    height: 53px;
+}
+
+.pokemoncardimg4 {
+    height: 53px;
+}
+
+.pokemoncardimg5 {
+    height: 53px;
+}
+
+.pokemoncardimg6 {
+    height: 53px;
+}
+
+/* main navbar */
+
+.navbar {
+    background-color: #ffffff;   
+    display: flex;   
+    margin: 2px 0 4px 525px;
+    height: 84px; 
+}
+
+.nav_home_div {
+    width: 130px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 8px ;
+    background-color: #919191;
+    border-bottom: 7px solid #919191;
+}
+
+.nav_home_div:hover {
+    background-color: #919191 ;
+    cursor: pointer;
+    border-bottom-left-radius: 8px ;
+}
+
+.nav_pokedex_div{
+    width: 130px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 7px solid #E3350D;
+}
+
+.nav_pokedex_div:hover {
+    background-color: #E3350D;
+    cursor: pointer;
+}
+
+.nav_games_apps_div {
+    width: 130px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 7px solid #EE6B2F;
+}
+
+.nav_games_apps_div:hover {
+    background-color: #EE6B2F;
+    cursor: pointer;
+}
+
+.nav_cards_div {
+    width: 130px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 7px solid #E6BC2F;
+}
+
+.nav_cards_div:hover {
+    background-color: #E6BC2F;
+    cursor: pointer;
+}
+
+.nav_Animation_div {
+    width: 130px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 7px solid #4DAD5B;
+}
+
+.nav_Animation_div:hover {
+    background-color: #4DAD5B;
+    cursor: pointer;
+}
+
+.nav_events_div {
+    width: 130px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 7px solid #30A7D7;
+}
+
+.nav_events_div:hover {
+    background-color: #30A7D7;
+    cursor: pointer;
+}
+
+.nav_news_div {
+    width: 130px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 8px ;
+    border-bottom: 7px solid #1B53BA;
+}
+
+.nav_news_div:hover {
+    background-color: #1B53BA;
+    cursor: pointer;
+    border-bottom-right-radius: 8px;
+}
+
+.nav_all_a {
+    font-family: roboto , arial;
+    font-size: 16px;
+    text-decoration: none;
+    color: #050404;
+    margin-left: 7px;
+}  
+
+.nav_Home_a_icon {
+    margin-left: 10px;
+    margin-bottom:  5px;
+}
+
+.nav_Pokédex_a_icon {
+    margin-left: 20px;
+    margin-bottom:  5px;
+    padding-bottom: 10px;
+}
+
+.nav_games_a_icon {
+    margin-left: 28px;
+    margin-bottom:  5px;
+}
+
+.nav_Card_a_icon {
+    margin-left: 28px;
+    margin-bottom:  5px;
+}
+
+.nav_Animation_a_icon {
+    margin-left: 28px;
+    margin-bottom: 5px;
+}
+
+.nav_events_a_icon {
+    margin-left: 28px;
+    margin-bottom: 5px;
+}
+
+.nav_news_a_icon {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+        /* login & Search button */
+
+.Login_Search_Button_maindiv {
+    position: fixed;
+    flex-direction: column;
+    float: left;
+    border: 2px solid black;
+    top: 200px;
+    left: 312px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.user_img_div{
+    background-color: #369143;
+    padding: 28px 9px 0px 12px;
+    border-bottom: 2px solid black;
+}
+
+.Login_user_Button_image {
+    width: 32px;
+    height: 33px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+
+.Login_user_p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
+    line-height: 15px;
+    padding-bottom: 29px;
+}
+
+.search_button_div {
+    background-color: #3A3A3A;
+    padding: 28px 9px 29px 12px;
+   
+}
+
+.search-icon  {
+    color: #ffffff;
+    margin-left: 8px;
+}
+    
+main {
+    background-image: url('./Images/bgimg.png');
+    justify-content: center;
+    align-items: center;
+    background-color: #2f2f2f;
+} 
+
+        /* Card Section 1 */
+
+.Card_Section_1 {
+    background-color: rgb(255, 255, 255);
+    background-image: url('./Images/bgimg.png');
+    display: flex;
+    justify-content:center;
+    max-width: 1285px;
+    margin-left: 313px;
+}
+    /* card side 1 */
+
+.cardsec1_main_div_1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+    /* First Card  */
+
+.Sec1_first_card {
+    background-color: #c7aa79;
+    border-radius: 5px;
+    height: 507px;
+    width: 578px;
+    margin: 32px 0px 4px 0px;
+
+}
+
+.Sec1_first_card:hover {
+    background-color: #b89355;
+}
+
+.Sec1_first_card_img {
+    border-radius: 5px;
+    width: 577px;
+    height: 320;
+}
+
+.Sec1_first_card_text {
+    margin-left: 18px;
+}
+
+.first_card_h3 {
+    color: white; 
+    font-size: 22px;
+    margin-bottom: -3px;
+}
+
+.Sec1_first_card_p {
+    color: #975d22;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+   /* Second and Third Card */
+
+   /* second Card */
+
+.sec1_card_2_3_div {
+    display: flex;
+    margin-top: 15px;
+}
+
+.Sec1_second_card {
+   background-color: #FF90C4;
+   width: 278px;
+   height: 270px;
+   border-radius: 5px;
+   margin-right: 20px ;
+
+}
+
+.Sec1_second_card:hover {
+    background-color: #FF2A8E;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Sec1_second_card_img {
+    width: 278px;
+    height: 156px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.Sec1_second_card_text {
+    margin-left: 18px;
+    color: white;
+    font-size: 18.625px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Sec1_third_card {
+    background-color: #1b53ba;
+    width: 278px;
+    height: 270px;
+    border-radius: 5px;
+ }
+ 
+.Sec1_third_card:hover {
+     background-color: #1847d7;
+     cursor: pointer;
+     border-radius: 5px;
+}
+ 
+.Sec1_third_card_img {
+     width: 278px;
+     height: 156px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+ }
+ 
+.Sec1_third_card_text {
+     margin-left: 18px;
+     color: white;
+     font-size: 20px; 
+     font-family: Arial, Helvetica, sans-serif; 
+}
+
+   /* card side 2 */
+
+.cardsec1_main_div_2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+        /* forth card */
+
+.Sec1_forth_card {
+    background-color: #e6bc2f;
+    width: 280px;
+    height: 283px;
+    border-radius: 5px;
+    margin-right: 20px ;
+    margin-bottom: 20px;
+         
+}
+         
+.Sec1_forth_card:hover {
+    background-color: #daa31c;
+    cursor: pointer;
+    border-radius: 5px;
+}
+         
+.Sec1_forth_card_img {
+    width: 280px;
+    height: 155px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+         
+.Sec1_forth_card_text {
+    margin-left: 18px;
+    color: white;
+    font-size: 22px; 
+    font-family: Arial, Helvetica, sans-serif;             
+}
+
+        /* Fifth Card */
+         
+.Sec1_fifth_card {
+    background-color: #30a7d7;
+    width: 280px;
+    height: 283px;
+    border-radius: 5px;
+    margin-right: 20px ;                 
+}
+                 
+.Sec1_fifth_card:hover {
+    background-color: #1b82b1;
+    cursor: pointer;
+    border-radius: 5px;
+}
+                 
+.Sec1_fifth_card_img {
+    width: 280px;
+    height: 155px;
+    border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+                 
+.Sec1_fifth_card_text {
+    margin-left: 18px;
+    color: white;
+    font-size: 22px;    
+    font-family: Arial, Helvetica, sans-serif;          
+}        
+
+/* sixth card */
+
+.Sec1_sixth_card {
+    background-color: #b38aea;
+    width: 280px;
+    height: 147px;
+    border-radius: 5px;
+    margin-right: 20px ;  
+    display: flex; 
+    margin-top:20px ;              
+}
+                 
+.Sec1_sixth_card:hover {
+    background-color: #975fe2;
+    cursor: pointer;
+    border-radius: 5px;
+}
+                 
+.Sec1_sixth_card_img {
+    width: 113px;
+    height: 148px;
+    border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+                 
+.Sec1_sixth_card_text {
+    margin-left: 18px;
+    color: white;
+    font-size: 22px; 
+    font-family: Arial, Helvetica, sans-serif;             
+}        
+    
+        /* marquee and card section */
+
+.marqueeandcardsec2 {
+    max-width: 1285px;
+    background-color: white;
+    background-image: url('./Images/bgimg.png');
+    display: flex;
+    flex-direction: column;
+    margin-left: 313px;
+}
+
+.marquee__maindiv {  
+    margin-top: 50px;  
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+        /* Sandaconda Card */
+
+.sandaconda_div {
+    background-color: #232323;
+    height: 417px;
+    width: 364px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+.sandaconda_text_div {
+    display: flex;
+    gap: 165px;
+    color: white;
+    margin: 0px 25px 0px 25px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+    
+}
+
+.sandaconda_img_div {
+    background-color: #525252;
+    height: 250px;   
+}
+
+.sandaconda_img {
+    height: 300px;   
+    display: flex;
+    justify-content: center;      
+}
+
+.sandaconda_type_poison_div {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    gap: 70px;
+    margin-left:23px ;
+}
+
+.sandaconda_poison_p {
+    background-color: #B97FC9;
+    height: 24px;
+    width: 63px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sandaconda_Abillities_stench {
+    display: flex;
+    color: white;
+    font-size: 16px;
+    gap: 50px;
+    margin-left:23px ;
+    line-height: 0px;
+}
+
+        /* leafeon card  */
+
+.leafeon_div {
+    background-color: #232323;
+    height: 417px;
+    width: 364px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+
+.leafeon_img_div {
+    background-color: #525252;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.leafeon_img {
+    height: 250px;
+}
+
+.leafeon_text_div {
+    display: flex;
+    gap: 190px;
+    color: white;
+    margin: 0px 25px 0px 25px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.leafeon_type_poison_div {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    gap: 70px;
+    margin-left:23px ;
+}
+
+.leafeon_poison_p {
+    background-color: #9BCC50;
+    height: 24px;
+    width: 63px;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+}
+
+.leafeon_Abillities_stench {
+    display: flex;
+    color: white;
+    font-size: 16px;
+    gap: 50px;
+    margin-left:23px ;
+    line-height: 0px;
+}
+
+        /* Azurill card */
+
+.azurill_div {
+    background-color: #232323;
+    height: 417px;
+    width: 364px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+    
+}
+
+.azurill_img_div {
+    background-color: #525252;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.azurill_img {
+    height: 250px;
+}
+
+.azurill_text_div {
+    display: flex;
+    gap: 190px;
+    color: white;
+    margin: 0px 25px 0px 25px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+
+.azurill_type_normal_div {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    gap: 70px;
+    margin-left:23px ;
+}
+
+
+.azurill_normal_div {
+    display: flex;
+    gap: 10px;
+}
+
+.azurill_normal_p {
+    background-color: #A4ACAF;
+    height: 24px;
+    width: 63px;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+}
+
+.azurill_fairy_p {
+    background-color: #FDB9E9;
+    height: 24px;
+    width: 63px;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+}
+
+.azurill_Abillities_stench {
+    display: flex;
+    color: white;
+    font-size: 16px;
+    gap: 50px;
+    margin-left:23px ;
+    line-height: 0px;
+}
+
+        /* Garbodor card */
+
+.garbodor_div {
+    background-color: #232323;
+    height: 417px;
+    width: 364px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+.garbodor_img_div {
+    background-color: #525252;
+    height: 250px;  
+    display: flex;
+    justify-content: center;
+}
+
+
+.garbodor_img {
+    height: 250px;
+}
+
+.garbodor_text_div {
+    display: flex;
+    gap: 190px;
+    color: white;
+    margin: 0px 25px 0px 25px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.garbodor_type_poison_div {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    gap: 70px;
+    margin-left:23px ; 
+}
+
+.garbodor_poison_p {
+    background-color: #FDB9E9;
+    height: 24px;
+    width: 63px;
+    text-align: center;
+    border-radius: 5px;
+    color: #050404;
+}
+
+.garbodor_Abillities_stench {
+    display: flex;
+    color: white;
+    font-size: 16px;
+    gap: 50px;
+    margin-left:23px ;
+    line-height: 0px;
+}
+
+/* 
+    spidops card */
+
+.spidops_div {
+    background-color: #232323;
+    height: 417px;
+    width: 364px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+.spidops_img_div {
+    background-color: #525252;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.spidops_img {
+    height: 250px;
+}
+
+.spidops_text_div {
+    display: flex;
+    gap: 190px;
+    color: white;
+    margin: 0px 25px 0px 25px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.spidops_type_bug_div {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    gap: 70px;
+    margin-left:23px ; 
+}
+
+.spidops_bug_p {
+    background-color: #FDB9E9;
+    height: 24px;
+    width: 63px;
+    text-align: center;
+    border-radius: 5px;
+    color: #050404;
+}
+
+.spidops_Abillities_stench {
+    display: flex;
+    color: white;
+    font-size: 16px;
+    gap: 50px;
+    margin-left:23px ;
+    line-height: 0px;
+}
+
+    /* Tapu koko card */
+
+.tapukoko_div {
+    background-color: #232323;
+    height: 417px;
+    width: 364px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black
+}
+
+.tapukoko_img_div {
+    background-color: #525252;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.tapukoko_img {
+    height: 250px;
+}
+
+.tapukoko_text_div {
+    display: flex;
+    gap: 190px;
+    color: white;
+    margin: 0px 25px 0px 25px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.tapukoko_type_bug_div {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    gap: 70px;
+    margin-left:23px ; 
+}
+
+.tapukoko_electric_fairy_div {
+    display: flex;
+    gap: 10px;
+}
+
+.tapukoko_electric_p {
+    background-color: #EED535;
+    height: 24px;
+    width: 63px;
+    text-align: center;
+    border-radius: 5px;
+    color: #050404;
+}
+
+.tapukoko_fairy_p {
+    background-color: #FDB9E9;
+    height: 24px;
+    width: 63px;
+    text-align: center;
+    border-radius: 5px;
+    color: #050404;
+}
+
+.tapukoko_Abillities_stench {
+    display: flex;
+    color: white;
+    font-size: 16px;
+    gap: 50px;
+    margin-left:23px ;
+    line-height: 0px;
+}
+
+        /* Oshawatt Card */
+
+.oshawott_div {
+    background-color: #232323;
+    height: 417px;
+    width: 364px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black
+}
+
+.oshawott_img_div {
+    background-color: #525252;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.oshawott_img {
+    height: 250px;
+}
+
+.oshawott_text_div {
+    display: flex;
+    gap: 190px;
+    color: white;
+    margin: 0px 25px 0px 25px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.oshawott_type_water_div {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    gap: 70px;
+    margin-left:23px ;
+}
+
+.oshawott_water_p {
+    background-color: #EED535;
+    height: 24px;
+    width: 63px;
+    text-align: center;
+    border-radius: 5px;
+    color: #050404;
+}
+
+.oshawott_Abillities_stench {
+    display: flex;
+    color: white;
+    font-size: 16px;
+    gap: 50px;
+    margin-left:23px ;
+    line-height: 0px;
+}
+
+        /* Tynamo Card */
+
+.tynamo_div {
+    background-color: #232323;
+    height: 417px;
+    width: 364px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black
+}
+
+.tynamo_img_div {
+    background-color: #525252;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.tynamo_img {
+    height: 250px;  
+}
+
+.tynamo_text_div {
+    display: flex;
+    gap: 190px;
+    color: white;
+    margin: 0px 25px 0px 25px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.tynamo_type_electic_div {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    gap: 70px;
+    margin-left:23px ;
+}
+
+.tynamo_electric_p {
+    background-color: #EED535;
+    height: 24px;
+    width: 63px;
+    text-align: center;
+    border-radius: 5px;
+    color: #050404;
+}
+
+.tynamo_Abillities_stench {
+    display: flex;
+    color: white;
+    font-size: 16px;
+    gap: 50px;
+    margin-left:23px ;
+    line-height: 0px;
+}
+
+        /* Delphox Card */
+
+.delphox_div {
+    background-color: #232323;
+    height: 417px;
+    width: 364px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+}
+        
+.delphox_text_div {
+    display: flex;
+    gap: 165px;
+    color: white;
+    margin: 0px 25px 0px 25px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;           
+}
+        
+.delphox_img_div {
+    background-color: #525252;
+    height: 250px; 
+    display: flex;
+    justify-content: center;  
+}
+        
+.delphox_img {
+    height: 250px;            
+}
+        
+.delphox_type_normal_div {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    gap: 70px;
+    margin-left:23px ;
+}
+        
+.delphox_normal_p {
+    background-color: #B97FC9;
+    height: 25px;
+    width: 66px;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+}
+        
+.delphox_Abillities_stench {
+    display: flex;
+    color: white;
+    font-size: 16px;
+    gap: 50px;
+    margin-left:23px ;
+    line-height: 0px;
+}
+
+        /* Card Section 2 */
+
+.Cardsec2 {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin: 120px auto 50px;
+}
+
+   /* card side 1 */
+
+.main_div_1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 80px;
+}
+
+    /* First Card */
+
+.sec2first_card {
+    background-color: #30a7d7;
+    width: 284px;
+    height: 365px;
+    border-radius: 5px;
+    margin-right: 20px ;
+    margin-bottom: 20px;   
+                
+}
+                 
+.sec2first_card:hover {
+    background-color: #1b82b1;
+    cursor: pointer;
+    border-radius: 5px;
+}
+                 
+.sec2first_card_img {
+    width: 284px;
+    height: 161px;
+    border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+                 
+.sec2first_card_text {
+    margin-left: 18px;
+    color: white;
+    font-size: 16px;   
+    margin-top: 0;
+}        
+
+.sec2first_card_h3 {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sec2first_card_p {
+    font-size: 16px;
+    margin-top: 0;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+        /* Second  card */
+
+.sec2second_card {
+    background-color: #855AC9;
+    width: 284px;
+    height: 411px;
+    border-radius: 5px;
+    margin-right: 20px ;
+    margin-bottom: 20px;                       
+}
+                         
+.sec2second_card:hover {
+    background-color: #734BB2;
+    cursor: pointer;
+    border-radius: 5px;
+}
+                         
+.sec2second_card_img {
+    width: 284px;
+    height: 161px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+                         
+.sec2second_card_text {
+    margin-left: 18px;
+    color: white;
+    font-size: 16px;   
+    margin-top: 0;
+}        
+        
+.sec2second_card_h3 {
+    margin-top: 4px;
+    margin-bottom: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+        
+.sec2second_card_p {
+    font-size: 18px;
+    margin-top: 0;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+        /* card side 2 */
+
+.main_div_2 {
+    display: flex;
+    flex-direction:column;
+    margin-top: 30px;
+}
+
+/* Third card */
+
+.sec2third_card {
+    background-color: #EE6B2F;
+    width: 284px;
+    height: 365px;
+    border-radius: 5px;
+    margin-right: 20px ;
+    margin-bottom: 20px;         
+}
+                 
+.sec2third_card:hover {
+    background-color: #DA471B;
+    cursor: pointer;
+    border-radius: 5px;
+}
+                 
+.sec2third_card_img {
+    width: 284px;
+    height: 161px;
+    border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+                 
+.sec2third_card_text {
+    margin-left: 18px;
+    color: white;
+    font-size: 16px;   
+    margin-top: 0;
+}        
+
+.sec2third_card_h3 {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sec2third_card_p {
+    font-size: 16px;
+    margin-top: 0;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+        /* Center Text */
+
+.center_text {
+    margin: auto 0;
+    font-weight: 0;
+    color: #919191;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+        /* forth card */
+
+.sec2fourth_card {
+    background-color: #FF90C4;
+    width: 284px;
+    height: 348px;
+    border-radius: 5px;
+    margin-right: 20px ;
+    margin-bottom: 20px;         
+}
+                         
+.sec2fourth_card:hover {
+    background-color: #FF2A8E;
+    cursor: pointer;
+    border-radius: 5px;
+}
+                         
+.sec2fourth_card_img {
+    width: 284px;
+    height: 161px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+                         
+.sec2fourth_card_text {
+    margin-left: 18px;
+    color: white;
+    font-size: 16px;   
+    margin-top: 0;
+}        
+        
+ .sec2fourth_card_h3 {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-size: 22;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+        
+.sec2fourth_card_p {
+    font-size: 16px;
+    margin-top: 0;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+        /* Card Side 3 */
+
+.main_div_3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 80px;
+}
+
+        /* Fifth Card */
+
+.sec2fifth_card {
+    background-color: #E3350D;
+    width: 284px;
+    height: 317px;
+    border-radius: 5px;
+    margin-right: 20px ;
+    margin-bottom: 20px;                       
+}
+                         
+.sec2fifth_card:hover {
+    background-color: #B32A0A;
+    cursor: pointer;
+    border-radius: 5px;
+}
+                         
+.sec2fifth_card_img {
+    width: 284px;
+    height: 158px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+                         
+.sec2fifth_card_text {
+    margin-left: 18px;
+    color: white;
+    font-size: 16px;   
+    margin-top: 0;
+}        
+        
+.sec2fifth_card_h3 {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+        
+.sec2fifth_card_p {
+    font-size: 16px;
+    margin-top: 0;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+        /* Sixth Card */
+
+.sec2sixth_card {
+    background-color: #E3350D;
+    width: 284px;
+    height: 374px;
+    border-radius: 5px;
+    margin-right: 20px ;
+    margin-bottom: 20px;                       
+}
+                                 
+.sec2sixth_card:hover {
+    background-color: #B32A0A;
+    cursor: pointer;
+    border-radius: 5px;
+}
+                                 
+.sec2sixth_card_img {
+    width: 284px;
+    height: 159px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+                                 
+.sec2sixth_card_text {
+    margin-left: 18px;
+    color: white;
+    font-size: 16px;   
+    margin-top: 0;
+}        
+                
+.sec2sixth_card_h3 {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+                
+.sec2sixth_card_p {
+    font-size: 16px;
+    margin-top: 0;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+        /* Text Card */
+
+.sec2text_card {
+    height: 122px;
+    width: 279px;
+    display: flex;
+    flex-direction: column;
+}
+
+.orange_div {
+    color: white;
+    background-color: #EE6B2F;
+    height: 59px;
+    font-size: 18px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cyan_div {
+    color: white;
+    height: 59px;
+    font-size: 16px;
+    background-color: #30A7D7;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.cyan_div:hover {
+    background-color: #1B82B1;
+}
+
+.orange_div h3 {
+    margin-left:12px;
+}
+
+.cyan_div p {
+    margin-left:12px;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 4px;
+}
+
+        /* Footer */
+
+
+footer {
+    background-color: #1F1F1F;
+    height: 650px;
+}
+
+.footer_main_div {
+    display: flex;
+    justify-content: center;
+    margin: 0px 32px;
+}
+
+.email_checkbox {
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+}
+.First_heading {
+    font-size: 21.6px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; 
+    font-weight: 700;  
+}
+
+.email_input_div input{
+    width: 399px;
+    height: 36px;
+    border-radius: 5px;
+    border: 4px solid red;
+    font-size: large;
+    font-weight: 500;
+    color: #424242;
+}
+
+.country_and_birthday_div {
+    display: flex;
+    gap: 7px;
+}
+
+.coutry_dropdown_div select {
+    width: 198px;
+    height: 43px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 500;
+    color: #424242;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+}
+    /* birthday */
+.birthday_div input {
+    width: 194px;
+    height: 39px;
+    border-radius: 6px;
+    font-size: medium;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+    /* sign up button */
+.signup_button {
+    background-color:#808080;
+    width:160px;
+    height:65px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.signup_button p {
+    text-align: center;
+    margin-top: 5px;
+    padding: 19px 12px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600; 
+}
+
+    /* pokemon list */
+
+.second_side {
+    display: flex;
+  
+}
+
+.pokemon_company {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pokemon_div_h2 {
+    color: white;
+    font-size: 18px;
+    
+}
+
+.pokemon_list p {
+    margin: 5px 0 0 0 ;
+    padding: 0;
+    font-size: 17px;
+    color: white;
+}
+
+        /* Check Box */
+
+.footer_checkbox {
+    margin-top: 25px;
+}
+
+    /* First checkbox */
+
+.first_checbox_p_div p {
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first_checkbox_p_checkbox {
+    display: flex;
+    gap: 20px;
+}
+
+.first_checkbox_p_checkbox p {
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+} 
+
+.first_checkbox_checkbox_div input {
+    width: 25px;
+    height: 25px;
+}
+
+        /* Second Checkbox */
+
+.second_checbox_p_div p {
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second_checkbox_p_checkbox {
+    display: flex;
+    gap: 20px;
+}
+
+.second_checkbox_p_checkbox p {
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+} 
+
+.second_checkbox_checkbox_div input {
+    width: 25px;
+    height: 25px;
+}
+
+        /* Third Checbox */
+
+.third_checbox_p_div p {
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.third_checkbox_p_checkbox {
+    display: flex;
+    gap: 20px;
+}
+
+.third_checkbox_p_checkbox p {
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+} 
+
+.third_checkbox_checkbox_div input {
+    width: 25px;
+    height: 25px;
+}
+
+.social_media_div{
+    display: flex;
+    margin-bottom: 0;
+}
+
+.facebookicon {
+    margin-left: 90px;
+    margin-top: 25px;
+}
+
+.facebookimg {
+    width: 35px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+
+.youtubeicon {
+    margin-left: 13px;
+    margin-top: 25px;
+}
+
+.youtubeimg {
+    width: 35px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+
+.twittericon {
+    margin-left: 13px;
+    margin-top: 25px;
+}
+
+.twitterimg {
+    width: 35px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+
+.instagramicon {
+    margin-left: 13px;
+    margin-top: 25px;
+}
+
+.instagramimg {
+    width: 35px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+
+.pinteresticon {
+    margin-left: 13px;
+    margin-top: 25px;
+}
+
+.pinterestimg {
+    width: 35px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+
+.footer_last_div {
+   margin-left: 110px;
+   
+}
+.footerhandimg {
+    width: 130px;
+    margin-top: 20px;
+}
+
+.last_p_div p {
+    margin: 7px 0 0 0 ;
+    padding: 0;
+    font-size: 16px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

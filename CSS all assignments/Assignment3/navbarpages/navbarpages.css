@@ -1,0 +1,524 @@
+@font-face {
+    font-family: stencils;
+    src: url('../fonts/BigShouldersStencil-VariableFont_opsz,wght.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  
+}
+
+html, body {
+    overflow-x: hidden; 
+}
+
+.marquee_section {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.franchise_button {
+    background-color: white;
+    color: black;
+}
+
+.order_button {
+    background-color: red;
+    color: white;
+}
+
+.buttons a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.About_us {
+    background-color: black;
+}
+
+
+.Aboutpage_About_us {
+    color: white;
+    font-family: Baskerville Old Face ;
+   text-align: center;
+}
+
+.Aboutpage_About_us_p {
+    color: #9191a0;
+    font-family: apercu;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.Aboutpage_Restaurant{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 300;
+}
+
+.Aboutpage_Restaurant_p {
+    color: #9191a0;
+    font-family: apercu;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+.about_restaurants {
+    background-color: black;
+    padding: 50px 20px;
+}
+
+.about_restaurants_table {
+padding:50px 20px;
+}
+
+.About_allrestaurantsSnp {
+    color: white;
+    font-family: stencils;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+
+.About_allrestaurants_name {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+.About_Snpallrestaurants_p{
+    color: #9191a0;
+    font-family: apercu;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.about_restaurantimage {
+    height: 404px;
+    width: 638px;
+}
+
+.about_villageimage{
+    width: 635px;
+    height: 365px;
+}
+
+.About_SnpfranchisesSnp {
+    color: white;
+    font-family: stencils;
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.About_Snpfranchisesnextline {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+.About_franchises_table {
+    padding:50px 20px;
+}
+
+.About_allfranchises_name{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+.About_allfranchisesSnp {
+    color: white;
+    font-family: stencils;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.About_Snpallfranchises_p {
+    color: #9191a0;
+    font-family: apercu;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.About_franchisesislamabad_img {
+    width: 638px;
+    height: 297px;
+}
+.About_franchisesfaisalabad_img {
+    width: 638px;
+    height: 294px;
+}
+
+.About_franchisesbahawalpur_img {
+    width: 640px;
+    height: 295px;
+}
+
+.About_SnpExpressSnp {
+    color: white;
+    font-family: stencils;
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.About_SnpExpressnextline{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+.About_SnpallExpress_p {
+    color: #9191a0;
+    font-family: apercu;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.About_expressartimage {
+    width: 635px;
+    height: 389px;
+}
+
+.Express_Franchises {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-left: 160px;
+}
+
+.expressfranchisesimages {
+    width: 418px;
+    height: 248px;
+}
+
+.Sargodha {
+    color: rgb(243, 0, 0);
+    font-size: smaller;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Jhelum {
+    color: rgb(243, 0, 0);
+    font-size: smaller;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Faisal_Town {
+    color: rgb(243, 0, 0);
+    font-size: smaller;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.DHA {
+    color: rgb(243, 0, 0);
+    font-size: smaller;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Bahria_Town {
+    color: rgb(243, 0, 0);
+    font-size: smaller;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Gujar_Khan {
+    color: rgb(243, 0, 0);
+    font-size: smaller;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Lahore {
+    color: rgb(243, 0, 0);
+    font-size: smaller;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Gujrat {
+    color: rgb(243, 0, 0);
+    font-size: smaller;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Sahiwal {
+    color: rgb(243, 0, 0);
+    font-size: smaller;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.expressfranchises_locations {
+    font-family:Gidole-r ;  
+    color: #535050;
+}
+
+.expressfranchises_phone {
+    font-family:Gidole-r ;  
+    color: #535050;
+}
+
+.SnpExpressfranchises_allSnp {
+    font-size: 30px;
+    font-family: stencils;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.SnpExpressfranchises_all_Express {
+   font-size: 24px;
+    padding-left: 2px;
+    font-family: Gidole-r;
+}
+
+.SnpExpressfranchises_buttons {
+    background-color:rgb(0, 0, 0) ;
+    color: white;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid white;
+}
+
+.Village_Franchises_table {
+    margin-left: 100px;
+}
+
+.Village_Franchises{
+    background-color:rgb(0, 0, 0) ;
+    margin-bottom: 50px;
+}
+
+.Village_Franchises1img {
+    width: 645px;
+    height: 368px;
+    margin-right: 20px;
+    margin-left: 100px;
+}
+
+.Gujranwala {
+    color: rgb(243, 0, 0);
+    font-size: 16px;
+    letter-spacing: 5.76px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.SnpVillagesfranchises_Snp {
+    color: white;
+    font-family: stencils;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.SnpVillageFranchises_Village {
+    color: white;
+    font-family: Gidole-r;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.VillageFranchises_location {
+    font-family:Gidole-r ;  
+    color: #535050;
+}
+
+.VillageFranchises_phone {
+    font-family:Gidole-r ;  
+    color: #535050;
+}
+
+.footer {
+    background-color: rgb( 15, 15 , 15 );
+}
+
+.footer_table {
+    border-spacing: 60px;
+    margin-left: 250px;
+}
+
+.Snplogofooter {
+    height: 70px;
+    width: 140px;
+}
+
+.footer_Snp {
+    color: white;
+    font-family: Baskerville Old Face;
+}
+
+.footer_Snp_p {
+    font-family:Gidole-r ;  
+    color: #535050;
+    letter-spacing: 1px;
+}
+
+.footer_sitelinks {
+    color: white;
+    font-family: Baskerville Old Face;
+}
+
+.sitelinks {
+    color: #535050;
+    font-family:Gidole-r ;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.footer_Contact{
+    color: white;
+    margin-top: 0px;
+    font-family: Baskerville Old Face;
+}
+
+.footer_Contactall_headings{
+    color: white;
+}
+
+.footer_contactsall_p {
+    color: #535050;
+    font-family:Gidole-r ;
+    text-decoration: none;
+    margin-left: 0px;
+    letter-spacing: 1px;
+}
+
+.footer_follow_heading {
+    color: white;
+    margin-top: 0px;
+    font-family: Baskerville Old Face;
+}
+
+.footer_followus_images {
+    width: 42px;
+    height: 42px;
+}
+
+.footerfollowus_iconimages {
+    width: 150px;
+    height: 110px;
+}
+
+.navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        padding: 15px 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .logo img {
+        height: 80px;
+    }
+    
+    .nav-links {
+        list-style: none;
+        display: flex;
+    }
+    
+    .nav-links li {
+        margin: 0 15px;
+    }
+    
+    .nav-links a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+    
+    .franchise_button {
+        background-color: white;
+        color: black;
+    }
+    
+    .order_button {
+        background-color: red;
+        color: white;
+    }
+    
+    .buttons a {
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+.publications { 
+    background-color: black;
+    text-align: center;
+}
+
+.booksimg_table {
+    margin-left: 300px;
+    border-spacing: 30px;
+}
+
+.Publications_bookimages {
+    width: 630px;
+    height: 660px;
+    border: 1px solid white;
+}
+
+.Main_header {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.allbranches_Snp {
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.allbranches_p {
+    font-size: 14px;
+    color: #535050;
+    font-family: Arial, Helvetica, sans-serif;
+}

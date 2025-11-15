@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posting App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script src="./app.js"></script>
+    <header>
+        <div class="header" id="header">
+            <i class="fa-solid fa-arrow-left fa-xl header_leftarrow"></i>
+            <p class="header_post_text">Post</p>
+            <p class="header_publish_button" onclick="PublishPost()">Publish</p>
+        </div>
+    </header>    
+    <main>
+        <div class="main_container" id="main_container">
+            <div class="user_input_post_div">
+                <div class="Userdata_div">
+                    <img class="userpfp" src="./user_pfp.jpeg">
+                    <div class="User_name_privacy">
+                        <input type="text" oninput="username()" id="Username_input" class="User_name_input" placeholder="Enter Your Name" maxlength="40">
+                        <p class="Public"><i class="fa-solid fa-earth-africa"></i>  Public</p>                       
+                    </div>
+                </div>
+                    <input type="text" oninput="post_text()" id="UserPost_input" placeholder="Post Something...">   
+            </div>
+
+        <div id="posts_container"></div>
+
+        </div>
+   </main> 
+</body>
+<script src="./app.js"></script>
+</html>

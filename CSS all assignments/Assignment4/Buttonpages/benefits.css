@@ -1,0 +1,133 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url('../Images/bgimg1.png');
+}
+
+main {
+    margin-left: 550px;
+}
+
+.benefits_heading {
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+
+.benefits_heading h1 {
+    font-size: 40px;
+    color: #FFD700;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.pragraph_and_buttons_div {
+    display: flex;
+    gap: 30px;
+}
+
+.Benefits_p_div {
+    width: 500px;
+}
+
+.Benefits_p_div p {
+    letter-spacing: 1px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+        /* Buttons */
+
+.all_four_button_div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 190px;
+}
+
+.all_four_button_div a {
+    text-decoration: none;
+}
+
+.Button_1_2_div {
+    display: flex;
+    gap: 20px;
+}
+
+.button_1 {
+    width: 200px;
+    height: 50px;
+    background-color: #FFD700;
+    border-radius: 8px;
+    border: 3px solid black;
+}
+
+.button_1 p {
+    font-size: 26px;
+    color: black;
+    margin: 10px 25px;
+    font-weight: 500;
+}
+
+.button_2 {
+    width: 200px;
+    height: 50px;
+    background-color: #FFD700;
+    border-radius: 8px;
+    border: 3px solid black;
+    
+}
+
+.button_2 p {
+    font-size: 26px;
+    color: black;
+    margin: 10px 0px 10px 60px;
+    font-weight: 500;
+} 
+
+.Button_3_4_div {
+    display: flex;
+    gap: 20px;
+}
+
+.button_3 {
+    width: 200px;
+    height: 50px;
+    background-color: #FFD700;
+    border-radius: 8px;
+    border: 3px solid black;
+}
+
+.button_3 p {
+    font-size: 26px;
+    color: black;
+    margin: 10px 25px;
+    font-weight: 500;
+}
+
+.button_4 {
+    width: 200px;
+    height: 50px;
+    background-color: #FFD700;
+    border-radius: 8px;
+    border: 3px solid black;
+    
+}
+
+.button_4 p {
+    font-size: 26px;
+    color: black;
+    margin: 10px 25px;
+    font-weight: 500;
+}
+
+        /* footer */
+
+h4 {
+    margin: 5px auto 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}

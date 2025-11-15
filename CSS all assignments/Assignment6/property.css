@@ -1,0 +1,348 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+._Header_all_content {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding-top: 16px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 999;
+    top: 0;
+}
+
+._olx_logo_bar_div {
+    display: flex;
+    margin: 0 0 0 300px;
+}
+
+._olx_logo_img {
+    width: 56px;
+    height: 32px;
+    margin-right: 40px;
+}
+
+/* Motors */
+
+._olx_motors_iconimg_and_p_div {
+    display: flex;
+
+}
+
+._olx_motors_iconimg {
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    width: 45px;
+    height: 45px;
+}
+
+._olx_motors_iconimg img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+
+._olx_motors_p_div p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    margin-top: 8px;
+}
+
+/* properties */
+
+._olx_properties_iconimg_and_p_div {
+    display: flex;
+    margin-top: 7px;
+    margin-left: 50px
+}
+
+._olx_properties_iconimg {
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    width: 45px;
+    height: 45px;
+}
+
+._olx_properties_iconimg img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+}
+
+._olx_properties_p_div p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+/* Navbar */
+
+._header_navbar {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar {
+    width: 100%;
+    padding: 0 0 0 290px;
+    background-color: #F7F8F9;
+    height: 73px;
+}
+
+._header_proficon_dropdownicon {
+    display: flex;
+}
+
+._header_profile_iconimg {
+    width: 35px;
+    height: 35px;
+    margin-left: 820px;
+}
+
+._header_dropdownicon {
+    margin-left: 6px;
+}
+
+._nav_Sell {
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.Sellbutton_img {
+    position: absolute;
+}
+
+._nav_Sell p{
+    position: absolute;
+    z-index: 998;
+    margin-top: 11px;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+    /* main */
+
+main {
+    margin-top: 140px;
+}
+
+._search_browse_properties {
+    display: flex;
+    justify-content: center;
+    background-color: #E4EFFF;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+    /* Search Property */
+
+._search_property_div {
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 25px 25px 30px;
+    width: 370px;
+}
+
+._search_property_h2 {
+    font-size: 26px;
+    margin: 0 0 16px;
+}
+
+._sale_rent_button_div {
+    display: flex;
+    margin: 0 0 20px;
+}
+
+._search_property_sale_button {
+    border-radius: 40px;
+    background-color: #C7DCFF;
+    width: 66px;
+    height: 35px;
+    position: absolute;
+}
+
+._search_property_sale_button p {
+    text-align: center;
+    margin-top: 3px;
+}
+
+._search_property_rent_button {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: #E1EBFD;
+    width: 66px;
+    height: 35px;
+    margin-left: 55px;
+}
+
+._search_property_rent_button p {
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+    /* land plot dropdown input */
+
+._land_plot_dropdown_div {
+    width: 304px;
+    height: 42px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+._land_plot_dropdown_div option {
+    font-size: 16px;
+}
+
+    /* Search location city dropdown */
+
+._search_property_location_input {
+    display: flex;
+    height: 42px;
+    margin-bottom: 10px;
+}
+
+    /* Area Size */
+
+._area_size_heading_dropdown {
+    display: flex;
+    justify-content: space-between;
+}
+
+._area_size_p {
+    font-size: 14px;
+    color: #61797d;
+}
+
+._area_size_dropdown {
+    border: none;
+    text-decoration: underline;
+    width: 60px;
+    font-size: 14px;
+    height: 20px;
+}
+
+    /* Min Max  */
+  
+._min_max_input_div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+._min_input {
+    width: 154px;
+    height: 42px;
+    border-radius: 5px;
+}
+
+._max_input {
+    width: 154px;
+    height: 42px;
+    border-radius: 5px;
+}
+
+._min_max_range_input {
+    width: 320px;
+    margin-bottom: 10px;
+}
+
+._Search_button_div {
+    height: 48px;
+    width: 320px;
+    background-color: #3A77FF;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+._Search_button_div:hover {
+    background-color: #346BE6;
+}
+
+._Search_button_div p {
+    padding: 10px 20px;
+}
+
+    /* Browse Properties */
+    
+._browse_properties_div {
+    height: 432px;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 25px 25px 30px;
+    width: 1020px;
+}
+
+._browse_properties_heading {
+    font-size: 20px;
+}
+
+._browse_properties_tabs_button {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+._browse_properties_Popular_p {
+    background-color: #002F34;
+    border-radius: 40px;
+    height: 38px;
+    color: white;
+    padding: 5px 20px 10px;
+    font-weight: 500;
+}
+
+._browse_properties_others_p {
+    border-radius: 40px;
+    background-color: #F3F4F6;
+    height: 38px;
+    padding: 5px 20px 10px;
+    font-weight: 500;
+}
+
+    /* Browse Properties boxes */
+
+._browse_properties_boxes {
+    height: 117px;
+    width: 185px;
+    border: 1px solid black;   
+    /* text-align: center; */
+}
+
+._browse_properties_small_box_text {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+._browse_properties_small_box_p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #002F34;
+}
+
+._browse_properties_houses_p {
+    margin: 0;
+    color: #1a62cc;
+    padding: 0;
+}

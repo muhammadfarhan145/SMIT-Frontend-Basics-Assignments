@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./app.js"></script>
+</head>
+<body>
+
+    <h1>CURRENT DATE & TIME</h1>
+   <script>
+    
+// FIRST QUESTION
+
+var now = new Date()
+
+var day = now.getDate();
+
+document.write(now)
+
+  </script>
+<br>
+<br>
+
+<script>
+    // Second QUESTION
+
+
+  var months = [
+      "January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
+    ];
+
+    var now = new Date();
+    var currentMonthIndex = now.getMonth(); 
+
+    var currentMonthName = months[currentMonthIndex];
+
+    alert("Current Month is: " + currentMonthName);
+
+</script>
+<br>
+<br>
+
+<script>
+    // Third Question
+
+    var now = new Date();
+    var dayNumber = now.getDay(); 
+
+    var dayShort = "";
+
+    if (dayNumber === 0) {
+      dayShort = "Sun";
+    } else if (dayNumber === 1) {
+      dayShort = "Mon";
+    } else if (dayNumber === 2) {
+      dayShort = "Tue";
+    } else if (dayNumber === 3) {
+      dayShort = "Wed";
+    } else if (dayNumber === 4) {
+      dayShort = "Thu";
+    } else if (dayNumber === 5) {
+      dayShort = "Fri";
+    } else if (dayNumber === 6) {
+      dayShort = "Sat";
+    } else {
+      dayShort = "Unknown";
+    }
+</script>
+<br>
+<br>
+<script>
+    // fourth Question
+
+    var now = new Date();
+    var dayNumber = now.getDay();    
+
+    if (dayNumber === 0) {
+      alert("Its Fun day");
+    } else if (dayNumber === 6) {
+      alert("Its Fun day");
+    } else {
+      alert("Its busy day");
+    }
+</script>
+<br>
+<br>
+<script>
+    // Fifth Question
+var now = new Date();
+var dayof_Month = now.getDay();
+
+if(dayof_Month < 16){
+    document.write("First Fifteen Days Of the Month");
+} else if(dayof_Month > 16){
+    document.write("Last Fifteen Days Of the Month");
+} else {
+    document.write("Its Something Else!");
+}
+</script>
+<br>
+<br>
+<script>
+    // Sixth Question
+
+ var date = new Date();                  
+    var ms = date.getTime();                
+
+    var minute = Math.floor(ms / (1000 * 60));  // ✅ convert and floor to whole number
+    
+    document.write("Current Date: " + date + "<br>");
+    document.write("Elapsed milliseconds since January 1, 1970: " + ms + "<br>");
+    document.write("Elapsed minutes since January 1, 1970: " + minute + "<br>");
+
+</script>
+<br>
+<br>
+<!-- seventh question  -->
+
+<script>
+
+ var now = new Date();         // abhi ka date/time
+ var hour = now.getHours();    // hour nikalna (0 to 23)
+
+if (hour < 12) {
+   alert("It's AM");
+} else {
+     alert("It's PM");
+}
+
+</script>
+<br>
+<br>
+
+<!-- eight question -->
+
+<script>
+var Date2020 = new Date(2020,11,31);
+
+document.write("Later Date: " + Date2020);
+
+</script>
+<br>
+<br>
+
+<!-- ninth question  -->
+
+<script>
+
+var ramdan1 = new Date(2015,5,18);
+var now = new Date();
+var since = now - ramdan1;
+
+var daysPassed = Math.floor(since / (1000 * 60 * 60 * 24));
+
+alert(daysPassed + " days have passed since 1st ramdan from 2015 ")
+
+</script>
+
+<br>
+<br>
+<!-- Tenth question  -->
+<script>
+var startof02015 = new Date("january 1, 2015" )
+var ms = startof02015.getTime();
+
+var second = Math.floor(ms / 1000);
+
+   document.write("Seconds elapsed between Jan 1, 1970 and Jan 1, 2015: " + second);
+
+</script>
+<br>
+<br>
+
+<!-- Eleventh question -->
+
+<script>
+
+  var currentDate = new Date();
+  var currentHours = currentDate.getHours();
+  currentDate.setHours(currentHours + 1);
+
+  document.write("Date one hour ahead: " + currentDate);
+
+</script>
+
+<br>
+<br>
+<!-- twelveth question  -->
+ <script>
+
+var currentDate = new Date();
+currentDate.setFullYear(currentDate.getFullYear() - 100); 
+
+  alert("Date 100 years back: " + currentDate); 
+
+ </script>
+<br>
+<br>
+
+<!-- <thirdtheen question -->
+
+<script>
+var age = prompt("app ki age kia han");
+var currentYear = new Date().getFullYear();
+
+var birthYear = currentYear - age;
+
+document.write("Aap ka paidaish ka saal hai: " + birthYear);
+
+</script>
+<br>
+<br>
+
+<!-- fortheen question -->
+
+<script>
+
+ var customerName = "ABC Customer";
+  var month = "February";
+  var numberOfUnits = 410;
+  var chargesPerUnit = 16;
+  var latePaymentSurcharge = 350;
+
+  var netAmount = numberOfUnits * chargesPerUnit;
+  var grossAmount = netAmount + latePaymentSurcharge;
+
+  document.write("<p>Customer Name: <b>" + customerName + "</b></p>");
+  document.write("<p>Month: <b>" + month + "</b></p>");
+  document.write("<p>Number of units: <b>" + numberOfUnits + "</b></p>");
+  document.write("<p>Charges per unit: <b>" + chargesPerUnit + "</b></p>");
+  document.write("<br>");
+  document.write("<p>Net Amount Payable (within Due Date): <b>" + netAmount + "</b></p>");
+  document.write("<p>Late payment surcharge: <b>" + latePaymentSurcharge + "</b></p>");
+  document.write("<p>Gross Amount Payable (after Due Date): <b>" + grossAmount + "</b></p>");
+
+</script>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+    <script src="./app.js"></script>
+</head>
+<body>
+    <h1>Assignment 4</h1>
+
+     <!-- Seventh Question -->
+
+<script>
+    var qualification_inPak = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS"];
+
+    for (var i = 0 ; i < qualification_inPak ; i++) {
+    document.write((i + 1) + ") " + qualification_inPak[i] + "<br>");
+    }
+</script>
+<br>
+<br>
+
+<!-- Eighth Question -->
+
+<script>
+    var studentNames = ["Ali", "Sara", "Ahmed"];
+    var studentNames = ["300, 455, 466"];
+    var studentNames = 500;
+
+    for (var i = 0; i < studentNames.length; i++) {
+    var percentage = studentNames[i] / studentNames * 100;{
+    document.write("Score of " + studentNames[i] + " is " + studentScores[i] + ". Percentage: " + percentage + "%<br>")
+    }
+}
+</script>
+<br>
+<br>
+
+<!-- Ninth Question -->
+
+<script>
+    var colorsArray = ["red", "blue", "white", "Green"];
+    document.write(colorsArray);
+
+    // a))
+    
+    var userF_color = prompt("Enter a Color you want to add on the beginning of the array");
+    document.write(colorsArray.unshift(userF_color));
+
+    // b))
+
+    var userL_color = prompt("Enter a Color you want to add on the Last of the array");
+    document.write(colorsArray.push(userL_color));
+
+    // c))
+
+    colorsArray.unshift("Purple", "Black");
+    document.write(colorsArray);
+
+    // d))
+
+    colorsArray.shift();
+    document.write(colorsArray);
+
+    // e))
+
+    colorsArray.pop();
+    document.write(colorsArray);
+
+    // f))
+
+    var Userindex = Number(prompt("Enter A index Number You want to add a color"));
+    var UserColor = prompt("Write a color you want to add");
+
+    colorsArray.splice(Userindex, 0, UserColor);
+    document.write(colorsArray);
+
+    //  g))
+
+    var User2index = Number(prompt("At which index do you want to delete colors?"));
+    var Userdelete = Number(prompt("How many colors do you want to delete?"));
+
+    colorsArray.splice(User2index, Userdelete, 0);
+    document.write(colorsArray);
+</script>
+<br>
+<br>
+
+<!-- Tenth Question -->
+
+<script>
+    // var Student_score = Number(prompt("Enter Your Score"))
+    // var sort =  Student_score.sort();
+
+    // document.write("Score Of Student : " + Student_score);
+    // document.write("Ordered score of Student : " + sort)
+
+    var scores = [78, 45, 89, 66, 92, 56, 33];
+    document.write("Score Of Student : " + scores + "<br>");
+
+    scores.sort();
+    document.write("Ordered score of Student : " + scores);
+</script>
+<br>
+<br>
+<!-- Eleventh Question -->
+
+<script>
+    var cities = ["Lahore", "Peshawar", "Multan", "Islamabad", "Karachi", "Faisalabad"];
+    document.write("Cities list :" + "<br>" + cities);
+
+    var copycities = cities.slice(1, 4);
+    document.write("Selected Cities list :" + "<br>" + copycities);
+</script>
+<br>
+<br>
+
+<!-- Twelveth Question  -->
+
+<script>
+    var sentence = [" This ", " is " , " my " , " cat "];
+    document.write("Array" + "<br>" + sentence);
+
+    var result = sentence.join("");
+     document.write("String" + "<br>" + result);
+ </script> 
+<br>
+<br>
+
+<!-- Thirtheenth Question -->
+
+<script>
+    var arr = [];
+
+    arr.push("Keyboard");
+    arr.push("Mouse");
+    arr.push("Monitor");
+    arr.push("CPU");
+
+    document.write("<b>Devices:</b><br>" + arr + "<br><br>");
+
+    for(var i = 0; i < arr.length; i++){
+        document.write("Out:<br>" + "<br><br>" + arr[i] + "<br>");
+    }
+</script>
+<br>
+<br>
+<!-- Fourteenth Question -->
+
+<script>
+    var arr2 = [];
+
+    arr2.push("CPU");
+    arr2.push("Monitor");
+    arr2.push("Mouse");
+    arr2.push("Keyboard");
+
+    document.write("<b>Devices:</b><br>" + arr2 + "<br><br>");
+
+    for(var i = 0; i < arr2.length; i++){
+        document.write("Out:<br>" + "<br><br>" + arr2[i] + "<br>")
+    }
+</script>
+<br>
+<br>
+<!-- Fifteenth Question -->
+
+<script>
+    var company = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+    document.write("<select>");
+
+    for(var i = 0; i < company.length; i++){
+        document.write("<option>" + company[i] + "</option>");
+    }
+
+    document.write("</select>");
+</script>
+
+</body>
+</html>

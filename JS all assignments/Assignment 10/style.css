@@ -1,0 +1,103 @@
+body {
+    font-family: sans-serif;
+    background: #273631;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    background: #375F45;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 68%;
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #dfd3d2;
+}
+
+button {
+    padding: 5px 8px;
+    font-size: 13px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.add-btn {
+    background: #4caf50;
+    color: white;
+    height: 34px;
+    width: 44px;
+}
+
+.update-btn {
+    background: #0f7c60;
+    color: white;
+}
+
+.cancel-btn {
+    background: #541c1c;
+    color: white;
+}
+
+.edit-btn {
+    background: #7f5a23;
+    color: white;
+}
+
+.delete-btn {
+    background: #923f39;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background: #273631;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-break: break-word;
+    color: white;
+}
+
+.task-input-inline {
+    width: 65%;
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.actions {
+    display: flex;
+    gap: 5px;
+}
+
+.owner_P {
+    margin: 0 150px;
+    font-size: 10px;
+}

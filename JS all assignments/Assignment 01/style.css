@@ -1,0 +1,16 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+}
+
+.buttons div {
+    width: 120px;
+    height: 30px;
+    background-color: rgb(66, 36, 36);
+    color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+}

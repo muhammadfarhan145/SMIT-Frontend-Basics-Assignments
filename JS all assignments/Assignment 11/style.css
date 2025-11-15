@@ -1,0 +1,133 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header { 
+    display: flex;
+    margin: 50px auto 0;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    border: 3px solid #231111;
+    max-width: 550px;
+    padding: 0 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.header_leftarrow {
+    padding-top: 35px;
+}
+
+.header_post_text {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_publish_button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #055DBE;
+}
+
+/* Main container styles */
+.main_container {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin: 0 auto;
+    border: 2px solid grey;
+    padding: 50px;
+}
+
+.user_input_post_div {
+    width: 500px;
+}
+
+.Userdata_div {
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-left: 10px;
+    margin-top: 10px;  
+}
+
+.userpfp {
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+}
+
+.User_name_input {
+    width: 350px;
+    height: 35px;
+    font-size: larger;
+    border: none;
+}
+
+.User_name_privacy {
+    display: flex;
+    flex-direction: column;
+}
+
+.Public {
+    margin: 0;
+}
+
+.User_name_privacy p {
+    font-size: larger;
+}
+
+#UserPost_input {
+    border: none;
+    width: 550px;
+    height: 40px;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #000000;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.post {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    padding: 15px;
+    display: flex;
+}
+
+.user-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: pink;
+    margin-right: 15px;
+}
+
+.post-content {
+    flex: 1;
+}
+
+.username {
+    font-weight: bold;
+    margin: 0;
+}
+
+.timestamp {
+    font-size: 0.9em;
+    color: gray;
+}
+
+.post-text {
+    margin: 5px 0;
+}
+
+.interaction-icons {
+    margin-top: 10px;
+}

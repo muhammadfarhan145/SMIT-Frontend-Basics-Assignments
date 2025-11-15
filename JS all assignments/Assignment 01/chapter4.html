@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 4</title>
+    <style>
+      body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        padding-top: 100px;
+      }
+
+      .home_button {
+        width: 120px;
+        height: 30px;
+        background-color: rgb(66, 36, 36);
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+      }
+    </style>
+    <script src="./chapter4.js"></script>
+  </head>
+  <body>
+    <!-- Third Question -->
+
+    <script>
+      document.write(
+        "<b>" + "Rules for naming JS variables" + "</b>" + "<br><br>"
+      );
+
+      // Task 1: Declare 3 variables in one statement
+      var name, age, school;
+
+      // Task 2: Declare 5 legal & 5 illegal variable names
+      // Legal
+      var $price, _score, totalMarks, myName, value1;
+      // Illegal (will give error if you try to run them)
+      // var 1stName, my-name, full name, @home, var;
+
+      // Task 3: Display rules
+      document.write(
+        "Variable names can only contain <b>letters</b>, <b>numbers</b>, <b>$</b> and <b>_</b>. For example: <b>$my_1stVariable</b><br>"
+      );
+      document.write(
+        "Variable names must begin with a <b>letter</b>, <b>$</b> or <b>_</b>. For example: <b>$name</b>, <b>_name</b> or <b>name</b><br>"
+      );
+      document.write("Variable names are case <b>sensitive</b><br>");
+      document.write("Variable names should not be JS <b>keywords</b><br>");
+    </script>
+    <a href="./index.html">
+      <div class="home_button">
+        <p>Back to home</p>
+      </div>
+    </a>
+  </body>
+</html>
